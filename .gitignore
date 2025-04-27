@@ -1,0 +1,19 @@
+# Unignore specific file types
+!*.html
+!*.css
+!*.php
+!*.jpg
+!*.jpeg
+!*.png
+!*.gif
+!*.bmp
+!*.tiff
+!*.webp
+
+# Unignore specific directories
+!css/
+!images/
+
+# Unignore all files inside css/ and images/ directories
+!css/**
+!images/**
