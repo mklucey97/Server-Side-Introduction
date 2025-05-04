@@ -11,6 +11,8 @@ $pname = $_POST['pname'];
 $favfictionalplace = $_POST['favfictionalplace'];
 $favrealplace = $_POST['favrealplace'];
 
+// If the data is not present, initialize variables to empty
+
 
 
 
