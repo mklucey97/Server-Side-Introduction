@@ -25,3 +25,8 @@ form {
     align-items: center;
     margin: 20px;
 }
+
+/* Label Styling */
+label {
+    margin-bottom: 10px;
+}
