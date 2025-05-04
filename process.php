@@ -15,6 +15,7 @@ $favrealplace = $_POST['favrealplace'];
 if (!isset($title)) $title = "";
 if (!isset($favdrink)) $favdrink = "";
 if (!isset($pname)) $pname = "";
+if (!isset($favfictionalplace)) $favfictionalplace = "";
 
 
 
