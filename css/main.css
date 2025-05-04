@@ -5,3 +5,15 @@ Date: 5-3-25
 Assignment 3: Server Side Introduction  
 
 ***********************************/
+
+/* Global Styles */
+body {
+    background: linear-gradient(45deg, #d11313 100%, 50%, #00aaff);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 24px;
+    color: limegreen;
+    text-shadow: 2px 2px 5px white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
