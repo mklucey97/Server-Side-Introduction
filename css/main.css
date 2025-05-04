@@ -82,3 +82,9 @@ input[type="text"], input[type="submit"] {
         font-size: 18px;
         padding: 12px;
     }
+
+img {
+        transform: rotate(90deg);
+        max-width: 200px; /* Optional: Adjust image size for smaller screens */
+    }
+}
