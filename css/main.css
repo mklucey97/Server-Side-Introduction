@@ -30,3 +30,16 @@ form {
 label {
     margin-bottom: 10px;
 }
+
+/* Input Fields Styling */
+input[type="text"] {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #dc143c;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 24px;
+    color: limegreen;
+}
