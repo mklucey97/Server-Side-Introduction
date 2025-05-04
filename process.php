@@ -6,6 +6,7 @@
 
 // Step 1: Input
 $title = $_POST['title'];
+$favdrink = $_POST['favdrink'];
 
 
 
