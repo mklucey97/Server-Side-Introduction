@@ -17,3 +17,11 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
