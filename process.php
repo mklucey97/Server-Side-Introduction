@@ -13,6 +13,7 @@ $favrealplace = $_POST['favrealplace'];
 
 // If the data is not present, initialize variables to empty
 if (!isset($title)) $title = "";
+if (!isset($favdrink)) $favdrink = "";
 
 
 
