@@ -9,7 +9,7 @@ $title = $_POST['title'];
 $favdrink = $_POST['favdrink'];
 $pname = $_POST['pname'];
 $favfictionalplace = $_POST['favfictionalplace'];
-
+$favrealplace = $_POST['favrealplace'];
 
 
 
