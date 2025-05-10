@@ -83,6 +83,7 @@ if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
  
   echo "\n";
   echo '<img src="images/mickeymouse.jpg" alt="Mickey Mouse">' . "\n";
+  echo '<a href="index.html">Try Again</a>' . "\n";
 
 
 
