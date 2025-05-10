@@ -37,6 +37,7 @@ $title = substr($title, 0, 64);
 $favdrink = substr($favdrink, 0, 64);
 $pname = substr($pname, 0, 64);
 $favfictionalplace = substr($favfictionalplace, 0, 64);
+$favrealplace = substr($favrealplace, 0, 64);
 
 
 
