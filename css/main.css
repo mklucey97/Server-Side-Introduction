@@ -8,7 +8,7 @@ Assignment 3: Server Side Introduction
 
 /* Global Styles */
 body {
-    background: linear-gradient(45deg, #d11313 100%, 50%, #00aaff);
+    background: linear-gradient(90deg, #dc143c 50%, #0c9bed 50%);
     font-family: 'Comic Sans MS', cursive, sans-serif;
     font-size: 24px;
     color: limegreen;
@@ -16,6 +16,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Heading Styling */
+h1 {
+    text-align: center;
 }
 
 /* Form Styling */
@@ -77,15 +82,15 @@ img {
         font-size: 20px;
     }
 
-input[type="text"], input[type="submit"] {
+    input[type="text"], input[type="submit"] {
         width: 90%;
         font-size: 18px;
         padding: 12px;
     }
 
-img {
+    img {
         transform: rotate(90deg);
-        max-width: 200px; /* Optional: Adjust image size for smaller screens */
+        max-width: 200px;
     }
 }
 
@@ -95,7 +100,7 @@ img {
         padding: 15px;
     }
 
-  img {
+    img {
         max-width: 400px;
     }
 }
