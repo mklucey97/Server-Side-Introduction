@@ -23,6 +23,8 @@ if (!isset($favrealplace)) $favrealplace = "";
  * DO NOT process, only CLEAN and VALIDATE.
  * Do not delete this comment.
  * ******************************************/
+ 
+ // Clean up the variables by removing leading and trailing white space.
 
 
 
