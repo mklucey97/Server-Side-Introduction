@@ -47,6 +47,14 @@ $pname = strip_tags($pname);
 $favfictionalplace = strip_tags($favfictionalplace);
 $favrealplace = strip_tags($favrealplace);
 
+/** ************************************************
+ * STEP 3 and 4: PROCESSING and OUTPUT:  
+ * Notice this code only executes if you have valid data from steps 1 and 2.
+ * Your code must always have a safety feature similar to this.
+ * Do not delete this comment.
+ * ***********************************************************/
+
+
 
 
 
