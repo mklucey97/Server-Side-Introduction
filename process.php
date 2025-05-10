@@ -71,6 +71,7 @@ if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
  echo "$title is $lenTitle characters\n";
  echo "$favdrink is $lenDrink characters\n";
  echo "$pname is $lenPet characters\n";
+ echo "$favfictionalplace is $lenFictional characters\n";
 
 
 
