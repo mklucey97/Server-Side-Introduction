@@ -28,6 +28,7 @@ if (!isset($favrealplace)) $favrealplace = "";
  $title = trim($title);
  $favdrink = trim($favdrink);
  $pname = trim($pname);
+ $favfictionalplace = trim($favfictionalplace);
 
 
 
