@@ -45,6 +45,7 @@ $title = strip_tags($title);
 $favdrink = strip_tags($favdrink);
 $pname = strip_tags($pname);
 $favfictionalplace = strip_tags($favfictionalplace);
+$favrealplace = strip_tags($favrealplace);
 
 
 
