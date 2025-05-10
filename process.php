@@ -86,6 +86,7 @@ if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
   echo '<a href="index.html">Try Again</a>' . "\n";
   
  } else {
+	 // Invalid input
 
 
 
