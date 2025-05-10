@@ -30,6 +30,9 @@ if (!isset($favrealplace)) $favrealplace = "";
  $pname = trim($pname);
  $favfictionalplace = trim($favfictionalplace);
  $favrealplace = trim($favrealplace);
+ 
+ 
+// Sub-string the input to be a max of 64 characters
 
 
 
