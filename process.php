@@ -68,6 +68,7 @@ if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
  
  // Step 4: Output
  echo "You are $fullTitle\n";
+ echo "$title is $lenTitle characters\n";
 
 
 
