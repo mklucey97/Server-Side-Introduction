@@ -58,6 +58,8 @@ if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
 
  // Step 3: Process
  $fullTitle = $title . " " . $favdrink . " " . $pname . " of " . $favfictionalplace . " and " . $favrealplace;
+ 
+ $lenTitle = strlen($title);
 
 
 
