@@ -25,6 +25,7 @@ if (!isset($favrealplace)) $favrealplace = "";
  * ******************************************/
  
  // Clean up the variables by removing leading and trailing white space.
+ $title = trim($title);
 
 
 
