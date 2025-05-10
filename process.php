@@ -80,6 +80,8 @@ if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
  } else {
 	 echo "That's a cute little title.\n";
  }
+ 
+  echo "\n";
 
 
 
