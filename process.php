@@ -54,6 +54,8 @@ $favrealplace = strip_tags($favrealplace);
  * Do not delete this comment.
  * ***********************************************************/
 
+if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
+
 
 
 
