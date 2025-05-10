@@ -56,6 +56,7 @@ $favrealplace = strip_tags($favrealplace);
 
 if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
 
+ // Step 3: Process
 
 
 
