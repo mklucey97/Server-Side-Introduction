@@ -67,6 +67,7 @@ if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
  $lenFull = strlen($fullTitle);
  
  // Step 4: Output
+ echo "You are $fullTitle\n";
 
 
 
