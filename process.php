@@ -18,6 +18,13 @@ if (!isset($pname)) $pname = "";
 if (!isset($favfictionalplace)) $favfictionalplace = "";
 if (!isset($favrealplace)) $favrealplace = "";
 
+/************************************
+ * STEP 2: VALIDATION: Always Clean your input first!!!
+ * DO NOT process, only CLEAN and VALIDATE.
+ * Do not delete this comment.
+ * ******************************************/
+
+
 
 
 
