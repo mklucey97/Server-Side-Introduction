@@ -40,6 +40,9 @@ $favfictionalplace = substr($favfictionalplace, 0, 64);
 $favrealplace = substr($favrealplace, 0, 64);
 
 
+// Strip tags of any HTML tags
+
+
 
 
 
