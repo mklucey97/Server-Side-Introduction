@@ -65,6 +65,8 @@ if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
  $lenFictional = strlen($favfictionalplace);
  $lenReal = strlen($favrealplace);
  $lenFull = strlen($fullTitle);
+ 
+ // Step 4: Output
 
 
 
