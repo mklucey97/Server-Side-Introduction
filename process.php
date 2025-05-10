@@ -41,6 +41,7 @@ $favrealplace = substr($favrealplace, 0, 64);
 
 
 // Strip tags of any HTML tags
+$title = strip_tags($title);
 
 
 
