@@ -78,6 +78,8 @@ if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
  if ($lenFull >= 30) {
 	 echo "That's a heck of a title!\n";
  } else {
+	 echo "That's a cute little title.\n";
+ }
 
 
 
