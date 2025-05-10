@@ -34,6 +34,7 @@ if (!isset($favrealplace)) $favrealplace = "";
  
 // Sub-string the input to be a max of 64 characters
 $title = substr($title, 0, 64);
+$favdrink = substr($favdrink, 0, 64);
 
 
 
