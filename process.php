@@ -61,7 +61,7 @@ if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
  
  $lenTitle = strlen($title);
  $lenDrink = strlen($favdrink);
-
+ $lenPet = strlen($pname);
 
 
 
