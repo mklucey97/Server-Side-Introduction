@@ -74,6 +74,8 @@ if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
  echo "$favfictionalplace is $lenFictional characters\n";
  echo "$favrealplace is $lenReal characters\n"
  echo "Your whole title is $lenFull characters!\n";
+ 
+ if ($lenFull >= 30) {
 
 
 
