@@ -87,6 +87,7 @@ if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
   
  } else {
 	 // Invalid input
+	 echo "I'm sorry, your input was not valid.\n";
 
 
 
