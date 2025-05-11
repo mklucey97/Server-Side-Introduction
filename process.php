@@ -89,6 +89,8 @@ if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
 	 // Invalid input
 	 echo "I'm sorry, your input was not valid.\n";
 	 echo '<img src="images/mickeymouse.jpg" alt="Mickey Mouse">' . "\n";
+	 echo '<a href="index.html">Try Again</a>' . "\n";
+ }
 
 
 
