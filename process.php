@@ -67,10 +67,14 @@ if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
     } else {
         echo "<p>That's a cute little title.</p>";
     }
+
 } else {
-    echo "<p>I'm sorry, your input was not valid.</p>";
+    // INVALID INPUT BLOCK
+    echo '<div class="error-container">';
+    echo '<p class="error-message">I\'m sorry, your input was not valid.</p>';
     echo '<img src="images/mickeymouse.jpg" alt="Mickey Mouse" class="mickey">';
-    echo '<br><a href="index.html" class="retry-link">Try Again</a>';
+    echo '<a href="index.html" class="retry-link">Try Again</a>';
+    echo '</div>';
 }
 ?>
 
