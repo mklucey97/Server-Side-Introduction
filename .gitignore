@@ -13,7 +13,9 @@
 # Unignore specific directories
 !css/
 !images/
+!3 outputs
 
 # Unignore all files inside css/ and images/ directories
 !css/**
 !images/**
+!3 outputs/**
