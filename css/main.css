@@ -77,62 +77,51 @@ img {
     max-width: 100%;
     margin-top: 20px;
 }
+/* Container to separate error elements from overlapping */
+.error-container {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
 
-/* Rotated Mickey image with spacing and glow */
+/* Style for the error message */
+.error-message {
+    color: limegreen;
+    font-size: 24px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-shadow: 2px 2px 5px white;
+    margin-bottom: 20px;
+}
+
+/* Rotate the image and reposition it properly */
 img.mickey {
     transform: rotate(90deg);
-    margin: 30px auto 10px auto;
+    margin: 30px auto;
+    display: block;
     border: 5px solid white;
     border-radius: 15px;
     box-shadow: 0 0 15px white;
     max-width: 300px;
 }
 
-/* "Try Again" Link Styling */
+/* Updated Try Again link styling */
 a.retry-link {
     display: inline-block;
+    background-color: cyan;
+    color: limegreen;
+    font-size: 24px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-shadow: 2px 2px 5px white;
     padding: 10px 20px;
-    background-color: hotpink;
-    color: white;
-    text-decoration: none;
     border-radius: 25px;
+    text-decoration: none;
     margin-top: 20px;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    box-shadow: 0 0 8px hotpink;
+    box-shadow: 0 0 10px cyan;
 }
 
 a.retry-link:hover {
-    background-color: deeppink;
+    background-color: #00e5ff;
 }
 
-/* Responsive Design: Mobile First */
-@media screen and (max-width: 600px) {
-    body {
-        font-size: 20px;
-    }
 
-    input[type="text"],
-    input[type="submit"] {
-        width: 90%;
-        font-size: 18px;
-        padding: 12px;
-    }
 
-    img.mickey {
-        max-width: 200px;
-    }
-}
-
-@media screen and (min-width: 601px) {
-    input[type="text"],
-    input[type="submit"] {
-        font-size: 24px;
-        padding: 15px;
-    }
-
-    img.mickey {
-        max-width: 400px;
-    }
-}
