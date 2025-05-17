@@ -23,22 +23,20 @@ if (!isset($favrealplace)) $favrealplace = "";
  * DO NOT process, only CLEAN and VALIDATE.
  * Do not delete this comment.
  * ******************************************/
- 
- // Clean up the variables by removing leading and trailing white space.
- $title = trim($title);
- $favdrink = trim($favdrink);
- $pname = trim($pname);
- $favfictionalplace = trim($favfictionalplace);
- $favrealplace = trim($favrealplace);
- 
- 
+
+// Clean up the variables by removing leading and trailing white space.
+$title = trim($title);
+$favdrink = trim($favdrink);
+$pname = trim($pname);
+$favfictionalplace = trim($favfictionalplace);
+$favrealplace = trim($favrealplace);
+
 // Sub-string the input to be a max of 64 characters
 $title = substr($title, 0, 64);
 $favdrink = substr($favdrink, 0, 64);
 $pname = substr($pname, 0, 64);
 $favfictionalplace = substr($favfictionalplace, 0, 64);
 $favrealplace = substr($favrealplace, 0, 64);
-
 
 // Strip tags of any HTML tags
 $title = strip_tags($title);
@@ -56,42 +54,39 @@ $favrealplace = strip_tags($favrealplace);
 
 if ($title && $favdrink && $pname && $favfictionalplace && $favrealplace) {
 
- // Step 3: Process
- $fullTitle = $title . " " . $favdrink . " " . $pname . " of " . $favfictionalplace . " and " . $favrealplace;
- 
- $lenTitle = strlen($title);
- $lenDrink = strlen($favdrink);
- $lenPet = strlen($pname);
- $lenFictional = strlen($favfictionalplace);
- $lenReal = strlen($favrealplace);
- $lenFull = strlen($fullTitle);
- 
- // Step 4: Output
- echo "You are $fullTitle\n";
- echo "$title is $lenTitle characters\n";
- echo "$favdrink is $lenDrink characters\n";
- echo "$pname is $lenPet characters\n";
- echo "$favfictionalplace is $lenFictional characters\n";
- echo "$favrealplace is $lenReal characters\n"
- echo "Your whole title is $lenFull characters!\n";
- 
- if ($lenFull >= 30) {
-	 echo "That's a heck of a title!\n";
- } else {
-	 echo "That's a cute little title.\n";
- }
- 
-  echo "\n";
-  echo '<img src="images/mickeymouse.jpg" alt="Mickey Mouse">' . "\n";
-  echo '<a href="index.html">Try Again</a>' . "\n";
-  
- } else {
-	 // Invalid input
-	 echo "I'm sorry, your input was not valid.\n";
-	 echo '<img src="images/mickeymouse.jpg" alt="Mickey Mouse">' . "\n";
-	 echo '<a href="index.html">Try Again</a>' . "\n";
- }
+    // Step 3: Process
+    $fullTitle = $title . " " . $favdrink . " " . $pname . " of " . $favfictionalplace . " and " . $favrealplace;
 
+    $lenTitle = strlen($title);
+    $lenDrink = strlen($favdrink);
+    $lenPet = strlen($pname);
+    $lenFictional = strlen($favfictionalplace);
+    $lenReal = strlen($favrealplace);
+    $lenFull = strlen($fullTitle);
 
+    // Step 4: Output
+    echo "You are $fullTitle\n";
+    echo "$title is $lenTitle characters\n";
+    echo "$favdrink is $lenDrink characters\n";
+    echo "$pname is $lenPet characters\n";
+    echo "$favfictionalplace is $lenFictional characters\n";
+    echo "$favrealplace is $lenReal characters\n"; // <-- FIXED LINE
+    echo "Your whole title is $lenFull characters!\n";
 
+    if ($lenFull >= 30) {
+        echo "That's a heck of a title!\n";
+    } else {
+        echo "That's a cute little title.\n";
+    }
+
+    echo "\n";
+    echo '<img src="images/mickeymouse.jpg" alt="Mickey Mouse">' . "\n";
+    echo '<a href="index.html">Try Again</a>' . "\n";
+
+} else {
+    // Invalid input
+    echo "I'm sorry, your input was not valid.\n";
+    echo '<img src="images/mickeymouse.jpg" alt="Mickey Mouse">' . "\n";
+    echo '<a href="index.html">Try Again</a>' . "\n";
+}
 ?>
