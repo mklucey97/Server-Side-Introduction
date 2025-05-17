@@ -1,10 +1,8 @@
 /******************************************** 
-
 Author: Mary Lucey  
 Date: 5-3-25  
 Assignment 3: Server Side Introduction  
-
-***********************************/
+********************************************/
 
 /* Global Styles */
 body {
@@ -65,15 +63,43 @@ input[type="submit"] {
 
 /* Submit Button Hover */
 input[type="submit"]:hover {
-    background-color:  #d1ffdd;
+    background-color: #d1ffdd;
 }
 
-/* Image Styling */
+/* Image Styling (default) */
 img {
     display: block;
     max-width: 100%;
     margin-top: 20px;
+}
+
+/* Rotated Mickey image with spacing and glow */
+img.mickey {
     transform: rotate(90deg);
+    margin: 30px auto 10px auto;
+    border: 5px solid white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px white;
+    max-width: 300px;
+}
+
+/* "Try Again" Link Styling */
+a.retry-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: hotpink;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0 0 8px hotpink;
+}
+
+a.retry-link:hover {
+    background-color: deeppink;
 }
 
 /* Responsive Design: Mobile First */
@@ -82,25 +108,26 @@ img {
         font-size: 20px;
     }
 
-    input[type="text"], input[type="submit"] {
+    input[type="text"],
+    input[type="submit"] {
         width: 90%;
         font-size: 18px;
         padding: 12px;
     }
 
-    img {
-        transform: rotate(90deg);
+    img.mickey {
         max-width: 200px;
     }
 }
 
 @media screen and (min-width: 601px) {
-    input[type="text"], input[type="submit"] {
+    input[type="text"],
+    input[type="submit"] {
         font-size: 24px;
         padding: 15px;
     }
 
-    img {
+    img.mickey {
         max-width: 400px;
     }
 }
